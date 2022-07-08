@@ -266,7 +266,7 @@
 ![regeneration](regeneration.gif)
 
 Юниты автоматически регенерируют здоровье, но только в случае если они не получали урон по здоровью в последнее время.
-При получении урона по здоровье,
+При получении урона по здоровью,
 у юнита устанавливается поле `health_regeneration_start_tick = current_tick + time_to_ticks(health_regeneration_delay)` -
 юнит сможет регенерировать здоровье только через `health_regeneration_delay` секунд.
 
